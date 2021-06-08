@@ -1,0 +1,24 @@
+{
+  "name": "consume-api",
+  "version": "1.0.0",
+  "description": "My first work with API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "api",
+    "css"
+  ],
+  "author": "Jessica Lima <jessikurt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sweetalert2": "^11.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

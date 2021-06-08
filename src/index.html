@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo">
+      </div>
+      <form action="">
+        <div class="submit">
+          <input type="text" data-js="text" required="required" pattern="[0-9]+$" onKeyup="return numeros();"
+            placeholder="Digite o CEP...">
+          <button type="submit" data-js="button">Enviar</button>
+        </div>
+        <div>
+          <ul data-js="cep-info">
+            <li><strong>Logradouro:</strong> <span data-js="logradouro">-</span></li>
+            <li><strong>Bairro:</strong> <span data-js="bairro">-</span></li>
+            <li><strong>Cidade: </strong> <span data-js="cidade">-</span></li>
+            <li><strong>Estado:</strong> <span data-js="estado">-</span></li>
+            <li><strong>CEP: </strong> <span data-js="cep">-</span></li>
+          </ul>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
