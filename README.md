@@ -1,6 +1,7 @@
-# Spotify Wrapper
+# Looking for Zip Code
 
-A wrapper to work with the [Correios API](https://viacep.com.br/ws/01001000/json/)
+
+A project to work with the [Correios API](https://viacep.com.br/ws/01001000/json/)
 
 ## Getting Started
 
